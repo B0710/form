@@ -1,0 +1,59 @@
+body{
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+
+}
+.container{
+    background-color: aliceblue;
+    height: 500px;
+    width: 450px;
+    padding: 100px;
+    border-radius: 15px;
+    box-shadow: 12px 20px 5px rgb(216, 216, 216);
+
+}
+.brand-logo{
+    background: url( ../image/logoe.jpg);
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border-radius: 70%;
+
+}
+.brand-titel{
+    text-decoration: solid;
+}
+.input{
+    text-align: left;
+
+}
+label,button,input{
+    display: block;
+    width: 100%;
+    border: none;
+
+}
+label{
+    color: rgb(0, 140, 255);
+}
+input{
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    height: 40px;
+    box-shadow: 10px 10px 5px rgb(218, 217, 217) ;
+}
+button{
+    margin-top: 20px;
+    background-color: aquamarine;
+    color: white;
+    border-radius: 20px;
+    padding: 10PX;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 10px 10px 5px rgb(218, 217, 217);
+}
